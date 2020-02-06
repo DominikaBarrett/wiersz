@@ -1,0 +1,93 @@
+body {
+    padding: 50px 0 50px;
+    min-width: 990px;
+    color: black;
+}
+section {
+	border: solid;
+	border-color: red;
+	background-color:lightblue;
+
+}
+
+.author {
+
+position: relative;
+font-weight: 900;
+font-size: 46px;
+
+
+}
+
+.song {
+
+position: center;
+font-weight: 800;
+font-size: 24px;
+color:blue;
+column-count: 1;
+margin-left: auto;
+margin-right: auto;
+width: 30em;
+
+}
+.title {
+position: center;
+padding: 20px 20px 20px 20px;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+ 
+}
+
+.subtitle {
+padding: 20px 20px 20px 40px;
+font-weight: 400;
+font-size: 35px;
+text-align: center;
+}
+
+.first{
+padding: 20px 20px 20px 40px;
+font-weight: 400;
+font-size: 16px;
+text-indent: 100px;
+text-align: justify;
+letter-spacing: 3px;
+
+}
+
+.second {
+padding: 20px 20px 20px 40px;
+font-weight: 400;
+font-size: 16px;
+text-indent: 100px;
+text-align: justify;
+letter-spacing: 3px;
+
+
+}
+.third {
+padding: 20px 20px 20px 40px;
+font-weight: 400;
+font-size: 16px;
+text-indent: 100px;
+text-align: justify;
+letter-spacing: 3px;
+
+}
+.fourth {
+padding: 20px 20px 20px 40px;
+font-weight: 300;
+font-size: 16px;
+text-indent: 100px;
+text-align: justify;
+letter-spacing: 3px;
+
+
+}
+
+
+img {
+ width: 100%;
+}
