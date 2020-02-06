@@ -1,0 +1,33 @@
+{
+  "name": "lokomotywa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominikaBarrett/lokomotywa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DominikaBarrett/lokomotywa/issues"
+  },
+  "homepage": "https://github.com/DominikaBarrett/lokomotywa#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "autoprefixer-core": "^6.0.1",
+    "browser-sync": "^2.26.7",
+    "install": "^0.13.0",
+    "nu-html-checker": "^0.1.0"
+  },
+  "dependencies": {
+    "cler": "^0.1.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
