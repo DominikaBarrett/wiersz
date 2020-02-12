@@ -4,6 +4,8 @@ body {
     color: black;
 }
 section {
+    display: flex;
+    flex-direction: column;
 	border: solid;
 	border-color: red;
 	background-color:lightblue;
@@ -20,6 +22,7 @@ font-size: 46px;
 }
 
 .song {
+
 
 position: center;
 font-weight: 800;
