@@ -1,33 +1,31 @@
 {
-  "name": "lokomotywa",
+  "name": "wiersz",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "autoprefixer-core": "^6.0.1",
+    "cler": "^0.1.0",
+    "html-validate": "^2.16.0",
+    "install": "^0.13.0",
+    "nu-html-checker": "^0.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DominikaBarrett/lokomotywa.git"
+    "url": "git+https://github.com/DominikaBarrett/wiersz.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DominikaBarrett/lokomotywa/issues"
+    "url": "https://github.com/DominikaBarrett/wiersz/issues"
   },
-  "homepage": "https://github.com/DominikaBarrett/lokomotywa#readme",
-  "devDependencies": {
-    "autoprefixer-cli": "^1.0.0",
-    "autoprefixer-core": "^6.0.1",
-    "browser-sync": "^2.26.7",
-    "install": "^0.13.0",
-    "nu-html-checker": "^0.1.0"
-  },
-  "dependencies": {
-    "cler": "^0.1.0"
-  },
-  "directories": {
-    "test": "test"
-  }
+  "homepage": "https://github.com/DominikaBarrett/wiersz#readme"
 }
