@@ -1,4 +1,2 @@
 autoprefixer-cli -o main.prefixed.css style.css
-
-npm install -g html-validate
 html-validate index.html
