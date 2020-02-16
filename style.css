@@ -3,94 +3,81 @@ body {
     min-width: 990px;
     color: black;
 }
+
 section {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 	border: solid;
 	border-color: red;
 	background-color:lightblue;
-
 }
 
 .author {
-
-position: relative;
-font-weight: 900;
-font-size: 46px;
-
-
+	font-weight: 900;
+	font-size: 46px;
+	position: left;
 }
 
 .song {
-
-
-position: center;
-font-weight: 800;
-font-size: 24px;
-color:blue;
-column-count: 1;
-margin-left: auto;
-margin-right: auto;
-width: 30em;
-
+	font-weight: 800;
+	font-size: 24px;
+	color:blue;
+	column-count: 1;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30em;
 }
+
 .title {
-position: center;
-padding: 20px 20px 20px 20px;
-font-weight: 400;
-font-size: 24px;
-text-align: center;
- 
+	padding: 20px 20px 20px 20px;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
 }
 
 .subtitle {
-padding: 20px 20px 20px 40px;
-font-weight: 400;
-font-size: 35px;
-text-align: center;
+	padding: 20px 20px 20px 40px;
+	font-weight: 400;
+	font-size: 35px;
+	text-align: center;
 }
 
-.first{
-padding: 20px 20px 20px 40px;
-font-weight: 400;
-font-size: 16px;
-text-indent: 100px;
-text-align: justify;
-letter-spacing: 3px;
-
+p {
+	padding: 20px 20px 20px 40px;
+	font-weight: 400;
+	font-size: 16px;
+	text-indent: 100px;
+	text-align: justify;
+	letter-spacing: 3px;
 }
 
-.second {
-padding: 20px 20px 20px 40px;
-font-weight: 400;
-font-size: 16px;
-text-indent: 100px;
-text-align: justify;
-letter-spacing: 3px;
-
-
+.container {
+	display: flex;
+	position: relative;
+	width: 100%;
+	max-width: 700px;
 }
-.third {
-padding: 20px 20px 20px 40px;
-font-weight: 400;
-font-size: 16px;
-text-indent: 100px;
-text-align: justify;
-letter-spacing: 3px;
-
+  
+  img {
+	width: 100%;
+	height: auto;
 }
-.fourth {
-padding: 20px 20px 20px 40px;
-font-weight: 300;
-font-size: 16px;
-text-indent: 100px;
-text-align: justify;
-letter-spacing: 3px;
-
-
+  
+  .overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	color: #4919a1; 
+	width: 100%;
+	transition: .5s ease;
+	opacity:0;
+	color: rgb(204, 236, 18);
+	font-size: 40px;
+	padding: 20px;
+	text-align: center;
 }
-
-
-img {
- width: 100%;
+  
+  .container:hover .overlay {
+	opacity: 1;
 }
